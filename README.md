@@ -8,11 +8,11 @@ A boilerplate to bootstrap ArgoCD
 ## Goals
 
 - Keep it simple.
-- ArgoCD to manage by itself.
+- ArgoCD to be managed by itself.
 - High availability setup enabled by default.
 - Add ArgoCD image updater/rollouts and notifications. Remove it as if you don't want those.
 - Include a workaround for Vault integration.
-
+- Follow best practices recommended by ArgoCD
 
 ## Vault integration
 
