@@ -20,7 +20,7 @@ A boilerplate to bootstrap ArgoCD
 Basically, we will have one `Application` - the one in `_argocd` folder named `all-in-one`.
 
 - `_misc` is for misc stuff like the custom repo server Dockerfile for reference.
-- `apps` is for application manifest. A basic Helm app will have 2 files: `Chart.yaml` and `values.yaml`. I'm using Helm depedency style here so basically what we have is just empty chart with 1 dependency of the actual app I want to deploy.
+- `apps` is for application manifest. A basic Helm app will have 2 files: `Chart.yaml` and `values.yaml`. I'm using Helm depedency style here so basically what we have is just empty chart with 1 dependency of the actual app I want to deploy. Note that since we're using helm dependency, the `values.yaml` will look a bit different where you need to put all the values nested under the dependency name.
 
 ## Vault integration
 
