@@ -1,6 +1,8 @@
 ArgoCD Template
 ---------------
 
+![argocd logo](/images/argo-stacked-color.png)
+
 A boilerplate to bootstrap ArgoCD
 
 ## Goals
