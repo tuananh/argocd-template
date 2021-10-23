@@ -14,7 +14,7 @@ A boilerplate to bootstrap ArgoCD
 
 ## Vault integration
 
-ArgoCD image updater has a limitation that only work with `Application` type Helm and Kustomize. At first, I was going to use [IBM/argocd-vault-plugin](https://github.com/IBM/argocd-vault-plugin) but then the application type will be `Plugin` and therefore won't work with image updater.
+ArgoCD image updater has a limitation that only work with `Application` type Helm and Kustomize. At first, I was going to use [IBM/argocd-vault-plugin](https://github.com/IBM/argocd-vault-plugin) but then the application type will be `Plugin` and therefore won't work with image updater. You can subscribe to the [open issue here on Argocd image updater repo](https://github.com/argoproj-labs/argocd-image-updater/issues/168).
 
 This repo includes a workaround until ArgoCD and image updater fix the problem upstream. Until then, we can use this workaround for Vault integration (which is kinda essential at every organizations)
 
